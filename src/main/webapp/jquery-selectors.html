@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Using jQuery Selectors</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./css/sample-styles.css" type="text/css"/>
+<script src="./scripts/jquery.js" type="text/javascript"></script>
+<script src="./scripts/jquery-validator.js" type="text/javascript"></script>
+<script src="./scripts/jquery-selectors.js" type="text/javascript"></script>
+</head>
+<body>
+<div align="center">
+<table border="5">
+  <tr><th class="page-title">Using jQuery Selectors</th></tr>
+</table>
+<p/>
+<fieldset>
+<legend>Basics: Finding Elements and Manipulating DOM</legend>
+<ul id="poem">
+  <li class="red">To gild refined gold, to paint the lily,</li>
+  <li class="blue">To throw a perfume on the violet,</li>
+  <li>To smooth the ice, or add another hue</li>
+  <li class="red">Unto the rainbow, or with taper-light</li>
+  <li class="blue">To seek the beauteous eye of heaven to garnish,</li>
+  <li>Is wasteful and ridiculous excess.</li>
+</ul>
+<form action="#">
+  <input type="button" id="turn-green-button"
+         value="Turn Blue Lines Green"/>
+  <input type="button" id="revert-green-button"
+         value="Revert Green Lines"/>
+  <input type="button" id="hide-red-button"
+         value="Hide Red Lines"/>
+  <input type="button" id="revert-red-button"
+         value="Revert Red Lines"/>
+</form>
+</fieldset>
+<br/>
+<fieldset>
+<legend>Highlighting Missing and Incorrect Values (using the validator plugin)</legend>
+<form id="form-2" action="#">
+  <table>
+    <tr><td align="right">First name: <input type="text" name="fname" required/></td></tr>
+    <tr><td align="right">Middle name: <input type="text" name="mname"/></td></tr>
+    <tr><td align="right">Last name: <input type="text" name="lname" required/></td></tr>
+    <tr><td align="right">Password: <input type="password" name="pw" minlength="8" required/></td></tr>
+    <tr><td align="right">Age: <input type="text" id="age" name="age" minlength="2" min="18" required/></td></tr>
+    <tr><td align="center">
+        <input type="submit" id="submit-button" value="Submit Form"/>         
+    </td></tr>
+  </table>
+</form>
+</fieldset>
+<br/>
+<fieldset>
+<legend>Handling Cross-Browser Key Events</legend>
+  <form action="#">
+    Hit down-arrow or press button to echo
+    textfield data below the field<br/>
+    <input type="text" id="uppercase-field"/>
+    <input type="button" id="echo-button" 
+           value="Echo Textfield Value"/><br/>
+    <div class="title" id="echo-text"></div>
+  </form>
+</fieldset>
+
+</div></body></html>

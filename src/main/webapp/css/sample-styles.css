@@ -1,0 +1,69 @@
+#poem {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+}
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.yellow-bg { background-color: yellow;
+             cursor: pointer; }
+.missing { border: 2px solid red;
+           padding: 1px; }
+.gray-bg { background-color: #dddddd; }
+.title { 
+  color: #440000;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.warning { 
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.row1 {
+  background-color: white;
+  font-size: 18px;
+}
+.row2 {
+  background-color: #fafafa;
+  font-size: 18px;
+}
+.row3 {
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+.row4 {
+  background-color: #e6e6e6;
+  font-size: 18px;
+}
+
+.page-title { 
+  background-color: #ef8429;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body { background-color: #fdf5e6; }
+a:hover { color: red; }
+legend {
+  font-weight: bold;
+  color: black;
+  background-color: #eeeeee;
+  border: 1px solid #999999;
+  padding: 3px 2px;
+}
+.error { background-color: yellow;
+	      color: red;
+	      font-weight: bold;
+	      font-size: 16px;
+	      font-family: Arial, Helvetica, sans-serif;
+}

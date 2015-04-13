@@ -27,8 +27,7 @@ $(function() {
 		if($("#data-form2").valid()){
 			showName2();
 		}
-	}
-);
+	});
 });
 
 //ajax call to show-time jsp, passing the result to showAlert
